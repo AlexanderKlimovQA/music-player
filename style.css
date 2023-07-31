@@ -1,0 +1,204 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 20px;
+    background-image: url(./images/background.jpg);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Сброс настроек кнопки по умолчанию */
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+  }
+
+header {
+    background-image: url(./images/background.jpg);
+    background-color: black;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+nav {
+    padding-top: 47px;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 546px;
+    margin-left: 122px;
+}
+
+.nav_menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 190px;
+}
+
+.nav_menu_item {
+    margin-right: 100px;
+}
+
+.nav_menu_link {
+    color: #FFF;
+    font-family: 'Istok Web';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.6s;
+    display: block
+}
+
+.nav_menu_link:hover {
+    color: red;
+}
+
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_list {
+    margin-left: 122px;
+    margin-top: -60px;
+}
+
+.hero_list_title {
+    padding-bottom: 175px;
+    color: #FFF;
+    font-family: 'Kenia';
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140px;
+}
+
+.hero_list_text {
+    color: #FFF;
+    font-family: 'Istok Web';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero_img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 80px;
+}
+
+.smartphone {
+    z-index: 1;
+}
+
+.kabel {
+    padding-right: 55px;
+    margin-top: -155px;
+    z-index: 0;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.block_music {
+    background: #D53005;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.music_title {
+    text-align: left;
+    padding-left: 122px;
+    padding-top: 83px;
+    color: #FFF;
+    font-family: 'Karla';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 180px;
+}
+
+.music_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
+
+.music_menu_items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 122px;
+}
+
+.music_menu_btn {
+    color: #FFF;
+    font-family: 'Karla';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    width: 382px;
+    height: 83px;
+    margin-bottom: 88px;
+    cursor: pointer;
+    transition: 0.5 ease;
+}
+
+.music_menu_btn:active {
+    background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #8a3114 0%, #c54115 100%);
+}
+
+.music_menu_img {
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.img_album {
+    background-color: transparent;
+}
